@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="IncubyteWebAutomation.Tests.ErrorValidation">
+      <class name="GeneaWebAutomation.Tests.GeneaAssignment">
         <methods>
           <include name="teardown"/>
+          <include name="GeneaFlipkartAssignment"/>
           <include name="launchApplication"/>
-          <include name="test1"/>
         </methods>
-      </class> <!-- IncubyteWebAutomation.Tests.ErrorValidation -->
+      </class> <!-- GeneaWebAutomation.Tests.GeneaAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

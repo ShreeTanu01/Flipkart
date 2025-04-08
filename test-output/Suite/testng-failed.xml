@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)">
-    <groups>
-      <run>
-        <include name="ErrorHandling"/>
-      </run>
-    </groups>
+  <listeners>
+    <listener class-name="GeneaWebAutomation.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Genea Assignment(failed)">
     <classes>
-      <class name="IncubyteWebAutomation.Tests.ErrorValidation">
+      <class name="GeneaWebAutomation.Tests.GeneaAssignment">
         <methods>
-          <include name="ErrorValidationForInvalidEmail"/>
+          <include name="teardown"/>
+          <include name="GeneaFlipkartAssignment"/>
+          <include name="launchApplication"/>
         </methods>
-      </class> <!-- IncubyteWebAutomation.Tests.ErrorValidation -->
+      </class> <!-- GeneaWebAutomation.Tests.GeneaAssignment -->
     </classes>
-  </test> <!-- Error Validation Test(failed) -->
+  </test> <!-- Genea Assignment(failed) -->
 </suite> <!-- Failed suite [Suite] -->

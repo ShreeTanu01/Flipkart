@@ -1,125 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-24T20:49:52 IST" name="Suite" finished-at="2025-02-24T20:53:12 IST" duration-ms="199612">
+  <suite started-at="2025-04-08T13:46:17 IST" name="Default suite" finished-at="2025-04-08T13:47:39 IST" duration-ms="82326">
     <groups>
-      <group name="MultipleUserCheck">
-        <method signature="SelectSignIn.test1(java.lang.String,java.lang.String)[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@3cdf2c61]" name="test1" class="IncubyteWebAutomation.Tests.SelectSignIn"/>
-      </group> <!-- MultipleUserCheck -->
-      <group name="ErrorHandling">
-        <method signature="ErrorValidation.ErrorValidationForInvalidEmail()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" name="ErrorValidationForInvalidEmail" class="IncubyteWebAutomation.Tests.ErrorValidation"/>
-        <method signature="ErrorValidation.ErrorValidationForInvalidPassword()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" name="ErrorValidationForInvalidPassword" class="IncubyteWebAutomation.Tests.ErrorValidation"/>
-        <method signature="ErrorValidation.PasswordNotSame()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" name="PasswordNotSame" class="IncubyteWebAutomation.Tests.ErrorValidation"/>
-      </group> <!-- ErrorHandling -->
     </groups>
-    <test started-at="2025-02-24T20:49:52 IST" name="Create Account Test" finished-at="2025-02-24T20:51:50 IST" duration-ms="117604">
-      <class name="IncubyteWebAutomation.Tests.SelectCreateAccount">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.SelectCreateAccount@1f010bf0]" started-at="2025-02-24T20:49:52 IST" name="launchApplication" finished-at="2025-02-24T20:51:46 IST" duration-ms="113358" status="PASS">
+    <test started-at="2025-04-08T13:46:17 IST" name="Default test" finished-at="2025-04-08T13:47:39 IST" duration-ms="82326">
+      <class name="GeneaWebAutomation.Tests.GeneaAssignment">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GeneaWebAutomation.Tests.GeneaAssignment@55182842]" started-at="2025-04-08T13:46:17 IST" name="launchApplication" finished-at="2025-04-08T13:46:23 IST" duration-ms="5977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="test1()[pri:0, instance:IncubyteWebAutomation.Tests.SelectCreateAccount@1f010bf0]" started-at="2025-02-24T20:51:46 IST" name="test1" finished-at="2025-02-24T20:51:50 IST" duration-ms="4047" status="PASS">
+        <test-method signature="GeneaFlipkartAssignment()[pri:0, instance:GeneaWebAutomation.Tests.GeneaAssignment@55182842]" started-at="2025-04-08T13:46:23 IST" name="GeneaFlipkartAssignment" finished-at="2025-04-08T13:47:39 IST" duration-ms="76208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.SelectCreateAccount@1f010bf0]" started-at="2025-02-24T20:51:50 IST" name="teardown" finished-at="2025-02-24T20:51:50 IST" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- IncubyteWebAutomation.Tests.SelectCreateAccount -->
-    </test> <!-- Create Account Test -->
-    <test started-at="2025-02-24T20:49:52 IST" name="Error Validation Test" finished-at="2025-02-24T20:52:55 IST" duration-ms="183120">
-      <class name="IncubyteWebAutomation.Tests.ErrorValidation">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:49:52 IST" name="launchApplication" finished-at="2025-02-24T20:51:29 IST" duration-ms="96939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="ErrorValidationForInvalidEmail()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:51:29 IST" name="ErrorValidationForInvalidEmail" finished-at="2025-02-24T20:51:34 IST" duration-ms="4269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorValidationForInvalidEmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:51:34 IST" name="teardown" finished-at="2025-02-24T20:51:34 IST" duration-ms="94" status="PASS">
+        </test-method> <!-- GeneaFlipkartAssignment -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:GeneaWebAutomation.Tests.GeneaAssignment@55182842]" started-at="2025-04-08T13:47:39 IST" name="teardown" finished-at="2025-04-08T13:47:39 IST" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:51:34 IST" name="launchApplication" finished-at="2025-02-24T20:52:13 IST" duration-ms="39279" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="ErrorValidationForInvalidPassword()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:52:13 IST" name="ErrorValidationForInvalidPassword" finished-at="2025-02-24T20:52:18 IST" duration-ms="4591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorValidationForInvalidPassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:52:18 IST" name="teardown" finished-at="2025-02-24T20:52:18 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:52:18 IST" name="launchApplication" finished-at="2025-02-24T20:52:53 IST" duration-ms="35618" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="PasswordNotSame()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:52:53 IST" name="PasswordNotSame" finished-at="2025-02-24T20:52:55 IST" duration-ms="2082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PasswordNotSame -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@6ed3f258]" started-at="2025-02-24T20:52:55 IST" name="teardown" finished-at="2025-02-24T20:52:55 IST" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- IncubyteWebAutomation.Tests.ErrorValidation -->
-    </test> <!-- Error Validation Test -->
-    <test started-at="2025-02-24T20:49:52 IST" name="Sign In Test" finished-at="2025-02-24T20:53:12 IST" duration-ms="199612">
-      <class name="IncubyteWebAutomation.Tests.SelectSignIn">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@3cdf2c61]" started-at="2025-02-24T20:49:52 IST" name="launchApplication" finished-at="2025-02-24T20:51:06 IST" duration-ms="73446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@3cdf2c61]" started-at="2025-02-24T20:51:06 IST" name="test1" data-provider="getData" finished-at="2025-02-24T20:52:34 IST" duration-ms="88376" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kittu.kolhatkar@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Windows@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@3cdf2c61]" started-at="2025-02-24T20:52:34 IST" name="teardown" finished-at="2025-02-24T20:52:34 IST" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@3cdf2c61]" started-at="2025-02-24T20:52:34 IST" name="launchApplication" finished-at="2025-02-24T20:53:08 IST" duration-ms="33816" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@3cdf2c61]" started-at="2025-02-24T20:53:08 IST" name="test1" data-provider="getData" finished-at="2025-02-24T20:53:12 IST" duration-ms="3638" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc.xyz@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pwd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@3cdf2c61]" started-at="2025-02-24T20:53:12 IST" name="teardown" finished-at="2025-02-24T20:53:12 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- IncubyteWebAutomation.Tests.SelectSignIn -->
-    </test> <!-- Sign In Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- GeneaWebAutomation.Tests.GeneaAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
